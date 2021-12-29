@@ -38,8 +38,8 @@ time
 #include <Wire.h>
 #endif
 
-String keys = "887821c4003547a2a122c4995e33e7d6";  // 接口地址：https://console.heweather.com/app/index 自己去申请key
-String dq = "101280102";                           //  填入城市编号  获取编号 https://where.heweather.com/index.html
+String keys = "";  // 接口地址：https://console.heweather.com/app/index 自己去申请key
+String dq = "";                           //  填入城市编号  获取编号 https://where.heweather.com/index.html
 String UID = "9992930";                            //  B站UID,用以显示粉丝数
 
 String page = "3";  //设定显示界面1.B站粉丝界面/2.天气界面/ 3.天气第二界面/4.高考倒计时
