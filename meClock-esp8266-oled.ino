@@ -380,7 +380,9 @@ void shuaxin() {
         String th = "";
         String zod = "";
         // 转12小时制
-        if (hour() < 12) {
+        if (hour() == 0) {
+            th = "12";
+        } else if (hour() < 13) {
             th = String(hour());
         } else {
             th = String(hour() - 12);
